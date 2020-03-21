@@ -33,4 +33,5 @@ I was the only one to work on this project, but of course I had help from my ins
 I underestimated the differences between querying in sequelize and Mongoose. I was struggling with handling promises associated with Mongoose. I ran into difficulty figuring out how to connect Robo 3T to mLab, which is very different than connecting MySQL Workbench to JawsDB. The last challenge was learning how to seed the mLab database on deployment of the app on Heroku. I figured out how to modify the scripts in the package.json to accomplish this task.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Sijbc
+https://github.com/

@@ -5,15 +5,15 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node seeders/seed.js && node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Simon Colman",
+  "license": "none",
   "dependencies": {
     "express": "^4.16.3",
-    "mongoose": "^5.9.4",
+    "mongoose": "^5.3.16",
     "morgan": "^1.9.1"
   }
 }
